@@ -1,0 +1,12 @@
+parameters:
+    eschmar_taskchain.class: Eschmar\TaskChainBundle\Service\TaskChain
+
+services:
+    eschmar_taskchain:
+       class: %eschmar_taskchain.class%
+       # arguments: [@service_id, "plain_value", %parameter%]
+
+    eschmar_taskchain.test:
+        class: Eschmar\TaskChainBundle\Task\TestTask
+        tags:
+            - { name: taskchain }

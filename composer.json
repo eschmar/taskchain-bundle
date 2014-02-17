@@ -1,0 +1,23 @@
+{
+    "name": "eschmar/taskchain-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "keywords": ["cronjob", "symfony"],
+    "description": "Cronjobs made easy for symfony2.",
+    "homepage": "https://github.com/eschmar/taskchain-bundle",
+    "authors": [
+        {
+            "name": "Marcel Eschmann",
+            "homepage": "https://github.com/eschmar",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Eschmar\\TaskChainBundle": "" }
+    },
+    "target-dir": "Eschmar/TaskChainBundle",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.4"
+    }
+}
