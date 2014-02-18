@@ -55,6 +55,24 @@ php app/console taskchain [<group>] [--inset]
 
 The task chain will search for all tasks having the provided group assigned and execute them. Use the `--inset` option to exclude a group but execute all others.
 
+Output:
+```shell
+$ app/console taskchain
+
+   ______           __      ________          _
+  /_  __/___ ______/ /__   / ____/ /_  ____ _(_)___
+   / / / __ `/ ___/ //_/  / /   / __ \/ __ `/ / __ \
+  / / / /_/ (__  ) ,<    / /___/ / / / /_/ / / / / /
+ /_/  \__,_/____/_/|_|   \____/_/ /_/\__,_/_/_/ /_/
+
+ --------------------------- START ---------------------------
+
+ . Test Task... success
+
+ ---------------------------- END ----------------------------
+
+```
+
 ## License
 
 MIT License
