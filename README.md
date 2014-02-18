@@ -35,7 +35,6 @@ class TestTask extends TaskAbstract
 		sleep(3);
 		return true;
 	}
-
 }
 ```
 
@@ -53,7 +52,7 @@ Now you can execute the console command:
 php app/console taskchain [<group>] [--inset]
 ```
 
-The task chain will search for all tasks having the provided group assigned and execute them. Use the `--inset` option to exclude a group but execute all others.
+The command will execute all tagged services meeting the group requirement. Use the `--inset` option to exclude a group but execute all others.
 
 Output:
 ```shell
